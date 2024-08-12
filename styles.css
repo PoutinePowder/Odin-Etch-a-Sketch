@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Adjust based on your needs */
+    height: 960px; /* Adjust based on your needs */
+    border: 2px solid black;
+}
+
+.square {
+    width: calc(100% / 16); /* 100% divided by 16 to create 16 columns */
+    height: calc(100% / 16); /* 100% divided by 16 to create 16 rows */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Optional: Add border to each square */
+}
+
+.activated {
+    background-color: aquamarine;
+}
